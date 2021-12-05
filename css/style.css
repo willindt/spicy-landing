@@ -1,0 +1,227 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#banner {
+  height: 88rem;
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner * {
+  color: #fff;
+}
+
+.bannerImg {
+  max-width: 80%;
+  margin-top: 40%;
+}
+
+.bannerTitle {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.secondTitle {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.bannerText {
+  font-size: 2.5rem;
+}
+
+.bannerDiv {
+  height: 80rem;
+}
+
+#howSpicy .bannerTitle {
+  padding-top: 7rem;
+}
+
+.howSpaicyCards .card {
+  text-align: center;
+  margin-top: 10rem;
+  border: none;
+}
+.howSpaicyCards .card .card-title {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #ed5034;
+}
+.howSpaicyCards .card .card-text {
+  font-size: 1.8rem;
+  color: #2c2f36;
+}
+
+.howSpaicyCards .secondCard {
+  margin-top: 20rem;
+}
+
+#Sustainable {
+  height: 70rem;
+  background: #2c2f36;
+  background-image: url(../images/hideBg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 10rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.susteinDiveder {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 15rem;
+  margin-bottom: 8rem;
+}
+.susteinDiveder .percentageTxt {
+  font-size: 3rem;
+  color: #ed5034;
+  font-weight: 600;
+}
+.susteinDiveder .regText {
+  font-size: 1.4rem;
+  color: #fff;
+}
+.susteinDiveder .susRigthTxt {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.button {
+  padding: 0.75rem 1rem;
+  color: #ed5034;
+  background: #fff;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  color: #ed5034;
+}
+
+.borderRight {
+  border-right: 0.7rem solid rgba(216, 216, 216, 0.5);
+}
+
+.normText {
+  font-size: 1.8rem;
+  color: #2c2f36;
+}
+
+#truStory {
+  padding: 7rem 0;
+}
+
+#footer {
+  background: rgba(44, 47, 54, 0.1);
+  height: 35rem;
+  padding-top: 10rem;
+}
+
+.buttonSecond {
+  font-size: 1.7rem;
+  color: #2c2f36;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 0.75rem 1rem;
+}
+.buttonSecond img {
+  max-height: 2rem;
+  margin-right: 1rem;
+}
+
+.footerTitle {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #2c2f36;
+  padding-bottom: 1rem;
+}
+
+#footer ul li a {
+  color: #2c2f36;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#footer ul li {
+  padding-bottom: 0.3rem;
+}
+
+.icons li a img {
+  max-height: 3rem;
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .bannerTitle {
+    font-size: 3rem;
+  }
+  .bannerDiv {
+    height: auto;
+  }
+  .bannerBodyCtrl {
+    padding-top: 5rem;
+  }
+  .bannerImg {
+    margin-top: 0;
+  }
+  .howSpaicyCards .secondCard {
+    margin-top: 8rem;
+  }
+  .susteinDiveder {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+  .susteinDiveder .susRigthTxt {
+    margin-top: 5rem;
+  }
+  .borderRight {
+    border: none;
+  }
+  .secondTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #truStory {
+    padding: 4rem 0;
+  }
+  #footer {
+    background: rgba(44, 47, 54, 0.1);
+    height: auto;
+    padding-top: 4rem;
+  }
+}
